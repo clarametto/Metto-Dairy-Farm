@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/report.css">
+    <title>DAIRY-FARM</title>
+</head>
+
+<body>
+    <!-- navigation -->
+    <div id="header">
+        <div class="metto">
+
+            <div class="farm">
+
+                <h5>METTOFARM</h5>
+
+            </div>
+
+            <div class="green">
+                <div>
+                    <a href="index.html"> Home </a>
+
+                </div>
+
+                <div>
+                    <a href="report.html"> Reports </a>
+
+                </div>
+
+                <div>
+                    <a href="Aboutus.html"> About Us</a>
+
+                </div>
+
+                <div>
+                    <a href="contact.html"> Contact Us</a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- body -->
+    <div id="body">
+
+        <div id="dairy">
+            <h1 id="action">Daily Milk Production</h1>
+            
+            <form>
+                SHED A: <input type="text" id="firstshed"> <br> <br>
+                SHED B: <input type="text" id="secondshed"> <br> <br>
+                SHED C: <input type="text" id="thirdshed"> <br> <br>
+                SHED D: <input type="text" id="fourthshed"> <br> <br>
+             <input type="button" onclick="milkfuction() " value="Generate Report" id="cool">
+             <input class="button" type="button" onclick="reset() " value="Reset" id="cool">
+ 
+            </form>
+            <div id="hidden">
+                <h5>Summary Report for Production Today </h5>
+                <p> Your production in Shed A is <span id="shed1"></span>litres per day </p>
+                <p> Your production in Shed B is <span id="shed2"></span>litres per day </p>
+                <p> Your production in Shed C is <span id="shed3"></span>litres per day </p>
+                <p> Your production in Shed D is <span id="shed4"></span>litres per day </p>
+                <p> The total production is <span id="totalmilk"></span>litres per day </p>
+
+            </div>
+
+
+        </div>
+    <div id="projection">
+
+        <h1 id="action">Our Weekly, Monthly and Yearly Projections</h1>
+        <p>Enter today's production bellow to calculate our projections</p>
+
+        TODAY'S TOTAL PRODUCTION : <input type="" id="milk">  <br><br>
+        <input type="button" onclick="projection() " value="Generate Report" id="cool">
+        <input class="button" type="button" onclick="reset() " value="Reset" id="cool">
+
+        <div id="hidden2">
+            <h5>Report on expected income Projection</h5>
+            <p>Your Weekly will be income will be kenyan shillings <span id="weekly"></span></p>
+            <p>Your Monthly will be income will be kenyan shillings <span id="monthly"></span></p>
+            <p>Your Yearly will be income will be kenyan shillings <span id="yearly"></span></p>
+
+
+        </div>
+
+
+    </div>
+
+    <div id="yearrevenue">
+
+        <h1 id="action">Whole Year Projection on monthly basis</h1>
+        <p>enter today's production below to calculate whole year's projection</p>
+
+        TODAY'S TOTAL PRODUCTION : <input type="" id="milk">  <br><br>
+        <input type="button" onclick="revenue() " value="Generate Report" id="cool">
+        <input class="button" type="button" onclick="reset() " value="Reset" id="cool">
+
+    </div>
+    <div id="hidden3">
+
+        <h5>Report on expected income projection for the year and monthly basis</h5>
+
+    </div>
+    
+
+
+        
+    </div>
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <div class="footer">
+        <h1>METTO DAIRY FARM LIMITED</h1>
+        <h4>MILK FOR STONG MIND</h4>
+
+        <div id="footer">
+
+            <ol>
+                <a href="https://web.facebook.com/?_rdc=1&_rdr">
+                    <img src="Images/facebook-removebg-preview.png" id="imageX">
+                </a>
+
+            </ol>
+
+            <!-- <ol>
+                <a href="https://about.twitter.com/en">
+                    <img src="Images/preview.png" id="imageX">
+                </a>
+            </ol> -->
+
+            <ol>
+                <a href="https://www.instagram.com/accounts/login/?hl=en">
+                    <img src="Images/gi-removebg-preview.png" id="imageX">
+                </a>
+            </ol>
+
+            <ol>
+                <a href="https://web.facebook.com/?_rdc=1&_rdr">
+                    <img src="Images/gmail-app-icon.png" id="imageX">
+                </a>
+
+            </ol>
+
+            <ol>
+                <a href="https://about.twitter.com/en">
+                    <img src="Images/preview.png" id="imageX">
+                </a>
+            </ol>
+
+      
+
+        </div>
+
+        <p id="ltd">2021 MettoFarm Dairy Ltd</p>
+
+
+
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

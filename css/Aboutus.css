@@ -1,0 +1,107 @@
+*{
+    text-decoration: none;
+}
+.metto{
+    display: flex;
+}
+.green{
+    display: flex;
+    padding: 20px;
+    padding-left: 23%;
+
+}
+.green a{
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    padding: 10px 30px;
+    font-size: 22px;
+
+}
+.green a:hover{
+   
+    color: black;
+    background-color: rgba(8, 158, 71, 0.678);
+    border-radius: 10px;
+
+}
+.farm {
+    font-size: 80px;
+    color: rgba(8, 158, 71, 0.678); 
+    padding: 30px;
+    
+    }
+    
+    .farm h5{
+        font-size: 50px;
+        
+        }
+
+/* footer */
+.footer ol{
+
+    /* background-color: rgba(8, 158, 71, 0.678); */
+
+    
+}
+#footer ol a{
+    /* background-color: rgba(8, 158, 71, 0.678); */
+
+}
+#footer{
+    display: flex;
+    padding-left: 37%;
+    padding-top: 20px;
+    
+}
+#imageX{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    /* background-color: rgba(8, 158, 71, 0.678); */
+
+
+}
+.footer{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgba(8, 158, 71, 0.678);
+
+}
+
+
+.footer h1{
+
+    font-size: 20px;
+}
+.footer h4{
+
+    font-size: 15px;
+}
+
+#ltd{
+    font-size: 10px;
+}
+
+
+/* ......................... */
+
+#body{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+}
+#metto{
+    border-radius: 10px;
+    height: 600px;
+    border: 2px solid rgba(8, 158, 71, 0.678);
+}
+
+#content:hover{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(158, 240, 192, 0.678);
+
+}

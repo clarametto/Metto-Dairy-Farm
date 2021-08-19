@@ -1,0 +1,112 @@
+*{
+    text-decoration: none;
+}
+.metto{
+    display: flex;
+}
+.green{
+    display: flex;
+    padding: 20px;
+    padding-left: 23%;
+
+}
+.green a{
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    padding: 10px 30px;
+    font-size: 22px;
+
+}
+.green a:hover{
+   
+    color: black;
+    background-color: rgba(8, 158, 71, 0.678);
+    border-radius: 10px;
+
+}
+.farm {
+    font-size: 80px;
+    color: rgba(8, 158, 71, 0.678); 
+    padding: 30px;
+    
+    }
+    
+    .farm h5{
+        font-size: 50px;
+        
+        }
+
+#footer{
+    display: flex;
+    padding-left: 37%;
+    padding-top: 20px;
+    
+}
+#imageX{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    /* background-color: rgba(8, 158, 71, 0.678); */
+
+
+}
+.footer{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgba(8, 158, 71, 0.678);
+
+}
+
+
+.footer h1{
+
+    font-size: 20px;
+}
+.footer h4{
+
+    font-size: 15px;
+    
+}
+
+#ltd{
+    font-size: 10px;
+}
+
+/* ................... */
+
+#body{
+    /* background-color:wheat; */
+    height: auto;
+    text-align: center;
+}
+
+#action{
+    font-size: 30px;
+}
+input{
+    border: 1px solid rgba(8, 158, 71, 0.678);
+    border-radius: 5px;
+
+}
+#cool{
+    background-color: rgba(8, 158, 71, 0.678);
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 10px;
+
+
+}
+
+#hidden{
+
+    padding: 20px;
+    /* background-color: rgba(8, 158, 71, 0.678);
+    width: 80%; */
+
+}
+.button{
+    width: 150px;
+}
