@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Rampart+One&display=swap');
 *{
     text-decoration: none;
 }
 .metto{
     display: flex;
+}
+.farm{
+    /* font-family: 'Rampart One', cursive; */
+    color: black;
+}
+#bl{
+    color:white;
+    font-size: 50px;
+    font-family: 'Klee One', cursive;
 }
 .green{
     display: flex;
